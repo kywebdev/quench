@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Legal | quench</title>
+        <?php include('includes/meta.php'); ?>
+        <?php include('includes/favicon.php'); ?>
+        <?php include('includes/styles.php'); ?>
+    </head>
+    <body class="generic-page light-theme nav-not-opened work-modal-not-opened">
+        <?php include('includes/browserupgrade.php'); ?>
+        <?php include('includes/header.php'); ?>
+        <main>
+            <section class="hero animatedParent animateOnce">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h1 class="hero__heading animated fadeInUpShort delay-500">Privacy & Terms</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="animatedParent animateOnce">
+                <div class="page-content animated fadeInUpShort delay-750">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <p>quench, LLC (“quench”) provides access to <a href="https://quenchagency.com">https://quenchagency.com</a> (the “Site”) free of charge, in an attempt to provide information about quench, our capabilities, work experience and agency culture. We welcome visitors to the site. Your access and use of the site are governed by the Terms and Conditions and Privacy Statement set forth below, as well as any applicable laws, statutes, and regulations. By accessing or using this Site, you agree to abide by these Terms and Conditions and the Privacy Statement.</p>
+                                <h2>Terms & Conditions</h2>
+                                <p>The materials and concepts, including but not limited to trademarks, service marks and logos, contained and/or presented on the Site (“Materials”) are the exclusive property of quench or its clients; such Materials are for presentation and viewing on the Site only. The Materials may not be copied, downloaded, reproduced, altered, disseminated or further distributed or transmitted without the express written permission of quench.</p>
+                                <p>quench welcomes questions or comments about quench, its affiliates, or the Site. Due to the anticipated high volume of correspondence, quench cannot guarantee that it will be able to respond to correspondence on an individual basis, but it will make every effort to do so.</p>
+                                <p>It is quench’s policy not to accept or consider any unsolicited ideas, suggestions or materials of any kind, whether such unsolicited ideas are delivered or forwarded by means of and/or through the Site or otherwise. Please be advised that any and all such unsolicited ideas, suggestions or other materials which are delivered or forwarded to quench will be destroyed and/or returned without consideration, notification or compensation of any kind. quench is in the business of developing ideas and creating advertising materials; any and all ideas developed and materials created by quench are independently developed and created, without consideration of or regard to unsolicited ideas, suggestions or materials submitted by third parties who are not employed by quench.</p>
+                                <p>It is strictly prohibited to link other websites with the Site without quench’s prior written permission. The Site may contain links to unaffiliated, third-party websites where such third parties and quench have entered into agreements, which permit such links. quench shall, in such instances, have no liability or responsibility for the content or information, or for the collection practices contained on or used for such unaffiliated, third-party websites to which the Site is linked. The existence of a link between the Site and any other unaffiliated, third-party website is not and shall not be construed as an endorsement by quench of: (i) the owner or proprietor of the linked website; (ii) the contents or information contained on the linked website; or (iii) the collection practices used for the linked website.</p>
+                                <p>It is strictly prohibited to use or contact the Site to disrupt or damage the Site, its contents or its security measures, or to harass or disparage quench or its clients, or their respective employees, products, services or personnel. No unsolicited email (spam) may be directed to or through the Site. quench assumes no liability or responsibility for any material posted to the Site by anyone other than quench. If you believe that any material on the Site, whether posted by quench or by third parties, violates the copyrights or other rights of third parties, please contact us with complete details at <a href="mailto:legal@quenchagency.com">legal@quenchagency.com</a> so that we can consider the facts and circumstances and make an informed decision about the appropriate treatment of such material. The Site is offered AS IS and without warranties of any kind. quench makes no representations or warranties of any kind, and hereby expressly disclaims the implied warranties of merchantability and fitness for a specific purpose. quench is not responsible for the timeliness, accuracy, unavailability or interruptions in availability, viruses, or other defects in the Site or its contents. In no event shall quench be liable or responsible to users of the Site for any damages to users or to their computer systems or otherwise. The Site is offered in the English language and is intended for use in the U.S. and in other areas where that language is spoken. Use of the Site is limited to persons over the age of 18. Any and all claims arising out of or relating to use of the Site shall be governed by the laws of the Commonwealth of Pennsylvania, and shall be fully and finally decided by the federal or state courts, as applicable, in the Commonwealth of Pennsylvania.</p>
+                                <h2>Privacy Statement</h2>
+                                <p>This Privacy Statement governs quench’s collection and use of information and materials for and on the Site; it does not govern the offline collection and use of information and materials.</p>
+                                <p>quench will not collect and/or store any identification materials or personal information (“Personal Information”) of visitors to the Site, unless such Personal Information is voluntarily provided to us by you when contacting quench, and except to the extent necessary to run and administer the Site and to operate quench’s business. quench will only use such Personal Information to contact you, to provide you with information you may request, to periodically send you information about quench, or for quench’s internal or archival purposes. quench may use third-party contractors to help us operate our business and the Site or administer activities on our behalf, and quench may share Personal Information with these contractors for those limited purposes. Except for those third-party contractors identified herein, quench will not share your Personal Information with third parties, unless you allow us to.</p>
+                                <p>quench may also collect and store aggregate or anonymous information about user contact with and use of the Site. quench may collect non-identifiable user information (“Non-identifiable Information”) from you by “passive” means through the use of cookies, which Non-identifiable Information will be used for internal or archival purposes and to help quench interact with visitors to the Site. quench may further share such Non-identifiable Information, whether singly or in the aggregate, with third parties, including quench’s clients, to illustrate patterns and trends in advertising, marketing and communications.</p>
+                                <p>The Site is not intended for use by persons under the age of 18. It is quench’s policy not to collect any Personal Information from visitors to or users of the Site who are under the age of 13. quench shall not be responsible or liable for the collection or storage of Personal Information from visitors or users of the Site who are under the age of 18.</p>
+                                <p>If quench is sold to, or merges with, another company, or declares bankruptcy, some or all of the Personal Information collected from you may be transferred to a third-party as a result of the sale or transfer of assets. quench may also disclose your Personal Information when quench determines that such disclosure is required or necessary to insure quench’s compliance with applicable laws, or to protect the interests or safety of quench, its clients or other visitors to the Site.</p>
+                                <p>Protecting your Personal Information is important to us. quench uses the industry standard technology to protect the security of your Personal Information. Unfortunately, data transmission over the Internet cannot be guaranteed to be 100% secure. As a result, while quench is committed to protecting your Personal Information and will use every available means to do so, we cannot ensure or guaranty the security of any information, including Personal Information, transmitted to us.</p>
+                                <p>quench reserves the right to revise and update the Site, these Terms and Conditions and the Privacy Statement, as quench deems necessary, at any time and without notice. Any such revisions will be effective on the date of posting to the Site. Use of the Site following any such revisions will be deemed acceptance of such revisions. We recommend that you periodically visit this page to review the current Terms and Conditions and Privacy Statement to which you are bound.</p>
+                                <p>Please contact us with any questions or comments regarding the Terms and Conditions or our Privacy Statement: <a href="mailto:legal@quenchagency.com">legal@quenchagency.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <?php include('includes/work-modal.php'); ?>
+        <?php include('includes/footer.php'); ?>
+        <?php include('includes/scripts.php'); ?>
+    </body>
+</html>

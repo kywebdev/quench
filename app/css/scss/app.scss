@@ -1,0 +1,28 @@
+// site-wide styling
+@import "autoload/normalize";
+@import "common/variables.scss";
+@import "common/mixins.scss";
+@import "common/global.scss";
+
+// layouts
+@import "layouts/*.scss";
+
+// components
+@import "components/*.scss";
+
+// plugin styles
+@import "plugins/*.scss";
+
+// animations
+@import "animations/*.scss";
+
+// helper classes
+@import "common/helpers.scss";
+
+// unset things set by wp admin, bootstrap etc.
+@import "common/unsets.scss";
+
+// hide gravity forms honey pot
+body .gform_wrapper .gform_validation_container {
+    display: none;
+}

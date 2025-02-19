@@ -1,0 +1,169 @@
+html {
+    .error404 {
+        &.light-theme {
+            background-color: $green;
+    
+            header {
+                .navigation {
+                    nav {
+                        ul {
+                            li {
+                                a {
+                                    &:hover {
+                                        color: $black !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            height: 100vh;
+            margin-top: -165px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            overflow: hidden;
+
+            @media screen and (max-height: 600px) {
+                overflow: auto;
+                margin-top: 0px;
+                height: auto;
+            }
+        }
+        .hero {
+            padding: 130px 0px;
+            position: relative;
+            text-align: center;
+            width: 100%;
+    
+            @media screen and (max-height: 600px) {
+                padding: 10px 0px 50px;
+            }
+            @media screen and (max-width: $sm) {
+                padding: 30px 0px 70px;
+            }
+            &__heading {
+                font-size: 150px;
+                line-height: 150px;
+                margin-bottom: 10px;
+
+                @media screen and (max-width: $sm) {
+                    font-size: 100px;
+                    line-height: 100px;
+                }
+            }
+            &__text {
+                max-width: 365px;
+                width: 100%;
+                margin: 0px auto 50px;
+    
+                @media screen and (max-width: $sm) {
+                    margin: 0px auto 30px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 42px;
+    
+                    @media screen and (max-width: $sm) {
+                        font-size: 16px;
+                    }
+                    a {
+                        color: $black;
+    
+                        &:after {
+                            background-color: $black;
+                        }
+                        &:hover {
+                            color: $green;
+                        }
+                    }
+                }
+            }
+            &__btn {
+                &__container {
+                    display: inline-block;
+        
+                    @media screen and (max-width: $sm) {
+                        margin-right: 0px;
+                    }
+                    &.growIn.go {
+                        .circle-btn {
+                            &:before {
+                                animation: circle-btn-line-3 1s ease;
+                                animation-fill-mode: forwards;
+                                animation-delay: 1.75s;
+                            }
+                        }
+                    }
+                    .circle-btn {
+                        position: relative;
+                        
+                        &:before {
+                            content: '';
+                            display: block;
+                            width: 1px;
+                            height: 40vh;
+                            background-color: $black;
+                            position: absolute;
+                            top: 170px;
+                            left: 50%;
+                            transform: translateX(-50%) scaleX(0);
+                            transform-origin: top;
+            
+                            @media screen and (max-height: 600px) {
+                                display: none;
+                            }
+                            @media screen and (max-width: $sm) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            &__links {
+                display: none;
+                width: 100%;
+                position: absolute;
+                bottom: 50px;
+                left: 0px;
+    
+                @media screen and (max-height: 600px) {
+                    position: relative;
+                }
+                @media screen and (max-width: $sm) {
+                    display: block;
+                }
+                .container {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                a {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: $black;
+                    text-transform: lowercase;
+                    display: none;
+        
+                    @media screen and (max-width: $sm) {
+                        display: inline-block;
+                    }
+                    &:after {
+                        background-color: $black;
+                        bottom: 2px;
+                    }
+                    &:hover {
+                        color: $black;
+        
+                        &:after {
+                            bottom: -3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+html {
+    code {
+        font-family: unset;
+        font-size: unset;
+        color: unset;
+        word-wrap: unset;
+    }
+
+    // fix for animation style in WP
+    .nav-menu .nav-menu__nav {
+        .wp-block-navigation__container {
+            display: block;
+        }
+    }
+}
