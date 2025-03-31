@@ -104,39 +104,37 @@
                             <p class="request-trends__text__request animated fadeInUpShort delay-750">We can satisfy that craving. <br />Request a personal presentation now.</p>
                             <p class="request-trends__text__contact animated fadeInUpShort delay-1000">Media inquires only, contact Laura Mulhern at <a href="mailto:LMulhern@quenchagnecy.com">LMulhern@quenchagnecy.com</a></p>
                         </div>
-                        <div class="col-lg-7 request-trends__form gform_wrapper animated fadeInUpShort delay-1250">
-                            <ul>
-                                <form>
-                                    <div>
-                                        <label for="name">Name</label>
-                                        <input type="text" id="name" placeholder="Name" />
-                                    </div>
-                                    <div>
-                                        <label for="email">Email</label>
-                                        <input type="email" id="email" placeholder="Email" />
-                                    </div>
-                                    <div>
-                                        <label for="company-name">Company Name</label>
-                                        <input type="text" id="company-name" placeholder="Company Name" />
-                                    </div>
-                                    <div>
-                                        <label for="company-type">Company Type</label>
-                                        <select id="company-type">
-                                            <option selected disabled>Company Type</option>
-                                            <option>Type 1</option>
-                                            <option>Type 2</option>
-                                            <option>Type 3</option>
-                                            <option>Type 4</option>
-                                            <option>Type 5</option>
-                                        </select>
-                                    </div>
-                                    <div class="textarea">
-                                        <label for="information">Additional Information</label>
-                                        <textarea id="information"></textarea>
-                                    </div>
-                                    <input type="submit" id="submit" value="Submit" />
-                                </form>
-                            </ul>
+                        <div class="col-lg-7 request-trends__form animated fadeInUpShort delay-1250">
+                            <form>
+                                <div>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="Name" />
+                                </div>
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="Email" />
+                                </div>
+                                <div>
+                                    <label for="company-name">Company Name</label>
+                                    <input type="text" id="company-name" placeholder="Company Name" />
+                                </div>
+                                <div>
+                                    <label for="company-type">Company Type</label>
+                                    <select id="company-type">
+                                        <option selected disabled>Company Type</option>
+                                        <option>Type 1</option>
+                                        <option>Type 2</option>
+                                        <option>Type 3</option>
+                                        <option>Type 4</option>
+                                        <option>Type 5</option>
+                                    </select>
+                                </div>
+                                <div class="textarea">
+                                    <label for="information">Additional Information</label>
+                                    <textarea id="information"></textarea>
+                                </div>
+                                <input type="submit" id="submit" value="Submit" />
+                            </form>
                         </div>
                         <div class="line animated growRight delay-1500"></div>
                     </div>
